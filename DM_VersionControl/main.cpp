@@ -8,6 +8,7 @@ void greet()
 
 void goodbye()
 {
+	//printing fare thee well message.
 	std::cout << "Fare thee well. \n\n\n";
 }
 
