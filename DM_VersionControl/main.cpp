@@ -3,7 +3,7 @@
 void greet()
 {
 	//printing welcoming message
-	std::cout << "Hello World! This is the Main Function. Welcome! \n\n\n";
+	std::cout << "Hello World! This is the Main Function. \n\n\n";
 }
 
 void goodbye()
@@ -12,8 +12,15 @@ void goodbye()
 	std::cout << "Fare thee well. \n\n\n";
 }
 
+void solution()
+{
+	//nothing so far
+	std::cout << "Welcome! \n\n\n";
+}
+
 int main()
 {
 	greet();
+	solution();
 	goodbye();
 }
