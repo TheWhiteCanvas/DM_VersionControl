@@ -1,12 +1,18 @@
 #include <iostream>
 
-void greet()
+void Greet()
 {
 	//printing welcoming message
-	std::cout << "Hello World! This is the Main Function. Welcome! \n\n\n";
+	std::cout << "Hello World! This is the Main Function. \n\n\n";
 }
 
-void goodbye()
+void Solution()
+{
+	//nothing so far
+	std::cout << "Welcome! \n\n\n";
+}
+
+void Goodbye()
 {
 	//printing fare thee well message.
 	std::cout << "Fare thee well. \n\n\n";
@@ -14,6 +20,7 @@ void goodbye()
 
 int main()
 {
-	greet();
-	goodbye();
+	Greet();
+	Solution();
+	Goodbye();
 }
