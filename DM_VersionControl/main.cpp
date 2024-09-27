@@ -18,6 +18,12 @@ void Goodbye()
 	std::cout << "Fare thee well. \n\n\n";
 }
 
+void solution()
+{
+	//nothing so far
+	std::cout << "Welcome! \n\n\n";
+}
+
 int main()
 {
 	Greet();
